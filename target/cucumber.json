@@ -1,0 +1,502 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "A confluence user is logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 54124990507,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am logged in Atlassian cloud",
+            "match": {
+              "location": "LoginStepDefs.i_am_logged_in_Atlassian_cloud()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 55436985029,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Utils.beforeScenario()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "New confluence page",
+        "description": "",
+        "id": "create-a-new-confluence-page;new-confluence-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 457687534,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the button create page",
+            "match": {
+              "location": "PageCreationStepDefs.i_click_on_the_button_create_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15512294858,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I set a unique page title",
+            "match": {
+              "location": "PageCreationStepDefs.i_set_a_unique_page_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47210,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I type some text on the body",
+            "match": {
+              "location": "PageCreationStepDefs.i_type_some_text_on_the_body()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 225554273,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on the button publish",
+            "match": {
+              "location": "PageCreationStepDefs.i_click_on_the_button_publish()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11488076251,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The page is created sucessfully",
+            "match": {
+              "location": "PageCreationStepDefs.the_page_is_created_sucessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create a new confluence page",
+    "description": "As a Atlassian user\r\nI want to be able to create new confluence pages\r\nSo that my information is published in my space",
+    "id": "create-a-new-confluence-page",
+    "keyword": "Feature",
+    "uri": "com/atlassian/confluence/page_creation.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@confluence"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "A confluence user is logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 20973333054,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am logged in Atlassian cloud",
+            "match": {
+              "location": "LoginStepDefs.i_am_logged_in_Atlassian_cloud()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17396912153,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Utils.beforeScenario()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Set restriction to \"only edit\"",
+        "description": "",
+        "id": "set--restrictions-on-an-existing-confluence-page.;set-restriction-to-\"only-edit\"",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17314638268,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "a page exists",
+            "match": {
+              "location": "PageRestrictionsStepDefs.a_page_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2788657506,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I open the options for the page",
+            "match": {
+              "location": "PageRestrictionsStepDefs.i_open_the_options_for_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8858770978,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I set the restriction to only edit",
+            "match": {
+              "location": "PageRestrictionsStepDefs.i_set_the_restriction_to_only_edit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 171054095,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The restriction is applied to the page",
+            "match": {
+              "location": "PageRestrictionsStepDefs.the_restriction_is_applied_to_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "A confluence user is logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 42895992795,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am logged in Atlassian cloud",
+            "match": {
+              "location": "LoginStepDefs.i_am_logged_in_Atlassian_cloud()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6097223779,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Utils.beforeScenario()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Set restriction \"Viewing and editing restricted\" to certain users",
+        "description": "",
+        "id": "set--restrictions-on-an-existing-confluence-page.;set-restriction-\"viewing-and-editing-restricted\"-to-certain-users;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17082418388,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "a page exists",
+            "match": {
+              "location": "PageRestrictionsStepDefs.a_page_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 347562355,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I open the options for the page",
+            "match": {
+              "location": "PageRestrictionsStepDefs.i_open_the_options_for_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7510427815,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I set the restriction to Viewing and editing restricted",
+            "match": {
+              "location": "PageRestrictionsStepDefs.i_set_the_restriction_to()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3367724206,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I type the user \"Aleja\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Aleja",
+                  "offset": 17
+                }
+              ],
+              "location": "PageRestrictionsStepDefs.i_type_the_user(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 531352001,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I select the permission to \"view\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "view",
+                  "offset": 28
+                }
+              ],
+              "location": "PageRestrictionsStepDefs.i_select_the_permission_to(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107886616,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The restriction is applied to the page",
+            "match": {
+              "location": "PageRestrictionsStepDefs.the_restriction_is_applied_to_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@confluence"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "A confluence user is logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21600604613,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am logged in Atlassian cloud",
+            "match": {
+              "location": "LoginStepDefs.i_am_logged_in_Atlassian_cloud()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14216804047,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Utils.beforeScenario()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Set restriction \"Viewing and editing restricted\" to certain users",
+        "description": "",
+        "id": "set--restrictions-on-an-existing-confluence-page.;set-restriction-\"viewing-and-editing-restricted\"-to-certain-users;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29364190864,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "a page exists",
+            "match": {
+              "location": "PageRestrictionsStepDefs.a_page_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 294049477,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I open the options for the page",
+            "match": {
+              "location": "PageRestrictionsStepDefs.i_open_the_options_for_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14704956245,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I set the restriction to Viewing and editing restricted",
+            "match": {
+              "location": "PageRestrictionsStepDefs.i_set_the_restriction_to()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8232419394,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I type the user \"Blair\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blair",
+                  "offset": 17
+                }
+              ],
+              "location": "PageRestrictionsStepDefs.i_type_the_user(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 417531324,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I select the permission to \"edit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "edit",
+                  "offset": 28
+                }
+              ],
+              "location": "PageRestrictionsStepDefs.i_select_the_permission_to(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 377984324,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The restriction is applied to the page",
+            "match": {
+              "location": "PageRestrictionsStepDefs.the_restriction_is_applied_to_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@confluence"
+          }
+        ]
+      }
+    ],
+    "name": "Set  Restrictions on an existing confluence page.",
+    "description": "As a Atlassian user\r\nI want to be able to manage restrictions per user.\r\nSo that I have control of what is published in my space.",
+    "id": "set--restrictions-on-an-existing-confluence-page.",
+    "keyword": "Feature",
+    "uri": "com/atlassian/confluence/page_restrictions.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@confluence"
+      }
+    ]
+  }
+]
