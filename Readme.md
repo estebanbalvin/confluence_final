@@ -27,15 +27,15 @@ This project has to be configured in a JAva development environment in Windows o
   2.2) Selec the POM.xml file and finish
 
 3.) Run Maven and install your dependancies
-  3.1)Select the POM file and do right click
-  3.2)On the menu, select run as "maven install"
-  3.3) Wait until maven download all the dependancies to your local machine.
+3.1)Select the POM file and do right click
+3.2)On the menu, select run as "maven install"
+3.3) Wait until maven download all the dependancies to your local machine.
   
 4.) Execute the runner class
- 4.1) Select the class RunTestsCukes.java
- 4.2)Right click>Run as Junit tests
+4.1) Select the class RunTestsCukes.java
+4.2)Right click>Run as Junit tests
 
-## Running the tests
+### Running the tests
 
 1.) Edit config.properties (Change confluence URL, adminuser and password) if needed 
 1) Select the class RunTestsCukes.java
